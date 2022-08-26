@@ -2349,7 +2349,7 @@ input, select, textarea {
 			}
 
 			#logo .image {
-				position: relative;
+				position: absolute;
 				margin: 0 0 0.5em 0;
 			}
 
@@ -2582,6 +2582,33 @@ input, select, textarea {
 
 	}
 
+/* CANADOS CSS PART */
+
+#youtube{
+	margin-top: 1.75em;
+	margin-bottom: 2.75em;
+	width: 900px;
+	height: 450px;
+}
+
+#li{
+	margin-top: 0.5em;
+}
+
+#screenshots{
+	margin-top: 1.5em;
+}
+
+#btn{
+	margin-top: 1.5em;
+	margin-bottom: -1.85em;
+}
+
+#hor_line{
+	margin-top: 3.5em;
+	margin-bottom: -1.0em;
+}	
+
 /* Mobile */
 
 	@media screen and (max-width: 736px) {
@@ -2637,4 +2664,37 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
+
+
+		/* CANADOS CSS PART MOBILE*/
+
+			#youtube{
+				margin-top: 2.5em;
+				width: 350px;
+				height: 200px;
+			}		
+
+			#li{
+				margin-top: 1.5em;
+			}
+
+			#screenshots{
+				margin-top: 1.5em;
+				margin-bottom: -1.85em;
+			}
+
+			#btn{
+				margin-top: 1.5em;
+				margin-bottom: -1.85em;
+			}
+
+			#hor_line{
+				margin-top: 3.5em;
+				margin-bottom: -4.0em;
+			}	
+
+			.alt{
+				margin-top: 0em !important;
+			}
 	}
+
